@@ -13,7 +13,8 @@ return new class extends Migration
             $table->foreignId('id_pasien')->constrained('users')->cascadeOnDelete();
             $table->foreignId('id_jadwal')->constrained('jadwal_periksa')->cascadeOnDelete();
             $table->text('keluhan');
-            $table->unsignedInteger('no_antrian');
+            $table->integer('no_antrian');
+            $table->timestamps();
         });
     }
 

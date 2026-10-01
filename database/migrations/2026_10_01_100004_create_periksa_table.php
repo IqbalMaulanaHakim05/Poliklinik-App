@@ -13,7 +13,8 @@ return new class extends Migration
             $table->foreignId('id_daftar_poli')->constrained('daftar_poli')->cascadeOnDelete();
             $table->dateTime('tgl_periksa');
             $table->text('catatan')->nullable();
-            $table->unsignedInteger('biaya_periksa');
+            $table->integer('biaya_periksa');
+            $table->timestamps();
         });
     }
 

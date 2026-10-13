@@ -1,0 +1,30 @@
+Eksekusi ulang generator model pada 13 Oktober 2026. Model awal dipulihkan setelah setiap perintah.
+
+PS> php artisan make:model Poli --force --no-ansi
+
+ INFO Model [C:\laragon\www\tugas1\poliklinik-app\app\Models\Poli.php] created successfully.
+
+
+PS> php artisan make:model JadwalPeriksa --force --no-ansi
+
+ INFO Model [C:\laragon\www\tugas1\poliklinik-app\app\Models\JadwalPeriksa.php] created successfully.
+
+
+PS> php artisan make:model DaftarPoli --force --no-ansi
+
+ INFO Model [C:\laragon\www\tugas1\poliklinik-app\app\Models\DaftarPoli.php] created successfully.
+
+
+PS> php artisan make:model Periksa --force --no-ansi
+
+ INFO Model [C:\laragon\www\tugas1\poliklinik-app\app\Models\Periksa.php] created successfully.
+
+
+PS> php artisan make:model Obat --force --no-ansi
+
+ INFO Model [C:\laragon\www\tugas1\poliklinik-app\app\Models\Obat.php] created successfully.
+
+
+PS> php artisan make:model DetailPeriksa --force --no-ansi
+
+ INFO Model [C:\laragon\www\tugas1\poliklinik-app\app\Models\DetailPeriksa.php] created successfully.

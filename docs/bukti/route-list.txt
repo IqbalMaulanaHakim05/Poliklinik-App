@@ -1,0 +1,13 @@
+
+ GET|HEAD / .. routes/web.php:8
+ GET|HEAD admin/dashboard .. admin.dashboard › routes/web.php:30
+ GET|HEAD dashboard .. dashboard › routes/web.php:19
+ GET|HEAD dokter/dashboard .. dokter.dashboard › routes/web.php:37
+ GET|HEAD login .. login › AuthController@showLogin
+ POST login .. AuthController@login
+ POST logout .. logout › AuthController@logout
+ GET|HEAD pasien/dashboard .. pasien.dashboard › routes/web.php:44
+ GET|HEAD register .. AuthController@showRegister
+ POST register .. register › AuthController@register
+
+ Showing [10] routes

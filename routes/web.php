@@ -39,7 +39,7 @@ Route::middleware(['auth', 'role:admin'])->prefix('admin')->group(function () {
     Route::resource('polis', AdminPoliController::class);
     Route::resource('dokter', DokterController::class);
     Route::resource('pasien', PasienController::class);
-    Route::resource('obat', ObatController::class)->except('show');
+    Route::resource('obats', ObatController::class)->except('show')->names('obat');
 });
 
 
@@ -57,3 +57,4 @@ Route::middleware(['auth', 'role:pasien'])->prefix('pasien')->group(function () 
         return view('pasien.dashboard');
     })->name('pasien.dashboard');
 });
+
